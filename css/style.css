@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 400 130px/0.8 'Great Vibes', Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.app{
+    overflow: hidden;
+    padding: 10px 0 0 10px;
+}
+
+.error{
+    display: none;
+    color: rgba(255, 0, 0, 0.582);
+    font-size: 1.4rem;
+}
+
+.add__todo{
+    display: flex;
+}
+
+.todo__input{
+    width: 200px;
+    height: 23px;
+    padding: 0 8px;
+    font-size: 1.4rem;
+}
+
+.todo__btn{
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.todo__btn--icon{
+    background-image: url(../icons/plus-solid.svg);
+    display: block;
+    width: 16px;
+    height: 17px;
+    background-size: cover;
+    margin: 1px;
+}
+
+.todo__list{
+    margin-top: 20px;
+}
+
+.todo__item{
+    font-size: 1.4rem;
+    display: flex;
+}
+
+.todo__item--input{
+    margin-right: 8px;
+}
+
+.todo__item--delete{
+    background-image: url(../icons/trash-solid.svg);
+    display: block;
+    width: 14px;
+    height: 15px;
+    background-size: cover;
+    margin: 0 8px;
+}
+
+
